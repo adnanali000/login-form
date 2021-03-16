@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('icons/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+        color: white;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.container h1{
+    font-size: 35px;
+    border-bottom: 2px solid purple;
+    margin-bottom: 12px;
+    padding: 8px 0;
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    padding: 0 12px;
+    margin: 20px 0;
+    border-bottom: 2px solid purple;
+}
+.box i{
+    font-size: 15px;
+    text-align: center;
+}
+.box input{
+    width: 72%;
+    font-size: 20px;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    background: none;
+    color: wheat;
+    
+}
+.btn{
+    outline: none;
+    font-size: 20px;
+    background:none;
+    color: wheat;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: transparent;
+}
+.btn:hover{
+    
+    border: 2px solid purple;
+    color: purple;
+    background-color: wheat;
+    opacity: 0.3;
+}
